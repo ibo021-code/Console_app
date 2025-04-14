@@ -1,0 +1,15 @@
+C:\Users\memme\source\repos\Console_app\Console_app\bin\Debug\net8.0\Console_app.exe
+C:\Users\memme\source\repos\Console_app\Console_app\bin\Debug\net8.0\Console_app.deps.json
+C:\Users\memme\source\repos\Console_app\Console_app\bin\Debug\net8.0\Console_app.runtimeconfig.json
+C:\Users\memme\source\repos\Console_app\Console_app\bin\Debug\net8.0\Console_app.dll
+C:\Users\memme\source\repos\Console_app\Console_app\bin\Debug\net8.0\Console_app.pdb
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.AssemblyInfoInputs.cache
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.AssemblyInfo.cs
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.sourcelink.json
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.dll
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\refint\Console_app.dll
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.pdb
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\Console_app.genruntimeconfig.cache
+C:\Users\memme\source\repos\Console_app\Console_app\obj\Debug\net8.0\ref\Console_app.dll
