@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\memme\\source\\repos\\Console_app\\",
+  "WorkspaceRootPath": "C:\\Users\\memme\\OneDrive\\Masa\u00FCst\u00FC\\Console_app\\Console_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|c:\\users\\memme\\source\\repos\\console_app\\console_app\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|solutionrelative:console_app\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|c:\\users\\memme\\onedrive\\masa\u00FCst\u00FC\\console_app\\console_app\\console_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|solutionrelative:console_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|c:\\users\\memme\\source\\repos\\console_app\\console_app\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|c:\\users\\memme\\onedrive\\masa\u00FCst\u00FC\\console_app\\console_app\\console_app\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|solutionrelative:console_app\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|c:\\users\\memme\\source\\repos\\console_app\\console_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|solutionrelative:console_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|c:\\users\\memme\\onedrive\\masa\u00FCst\u00FC\\console_app\\console_app\\console_app\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2002510C-FBE4-4382-86F1-FF664B26AE8D}|Console_app\\ConsoleApp_ groupandstudent.csproj|solutionrelative:console_app\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\memme\\source\\repos\\Console_app\\Console_app\\Group.cs",
+              "DocumentMoniker": "C:\\Users\\memme\\OneDrive\\Masa\u00FCst\u00FC\\Console_app\\Console_app\\Console_app\\Group.cs",
               "RelativeDocumentMoniker": "Console_app\\Group.cs",
-              "ToolTip": "C:\\Users\\memme\\source\\repos\\Console_app\\Console_app\\Group.cs",
+              "ToolTip": "C:\\Users\\memme\\OneDrive\\Masa\u00FCst\u00FC\\Console_app\\Console_app\\Console_app\\Group.cs",
               "RelativeToolTip": "Console_app\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T13:05:47.174Z",
               "EditorCaption": ""
@@ -41,25 +41,27 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\memme\\source\\repos\\Console_app\\Console_app\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\memme\\OneDrive\\Masa\u00FCst\u00FC\\Console_app\\Console_app\\Console_app\\Student.cs",
               "RelativeDocumentMoniker": "Console_app\\Student.cs",
-              "ToolTip": "C:\\Users\\memme\\source\\repos\\Console_app\\Console_app\\Student.cs",
+              "ToolTip": "C:\\Users\\memme\\OneDrive\\Masa\u00FCst\u00FC\\Console_app\\Console_app\\Console_app\\Student.cs",
               "RelativeToolTip": "Console_app\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T13:03:33.017Z"
+              "WhenOpened": "2025-04-13T13:03:33.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\memme\\source\\repos\\Console_app\\Console_app\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\memme\\OneDrive\\Masa\u00FCst\u00FC\\Console_app\\Console_app\\Console_app\\Program.cs",
               "RelativeDocumentMoniker": "Console_app\\Program.cs",
-              "ToolTip": "C:\\Users\\memme\\source\\repos\\Console_app\\Console_app\\Program.cs",
+              "ToolTip": "C:\\Users\\memme\\OneDrive\\Masa\u00FCst\u00FC\\Console_app\\Console_app\\Console_app\\Program.cs",
               "RelativeToolTip": "Console_app\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwIgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T13:02:51.042Z"
+              "WhenOpened": "2025-04-13T13:02:51.042Z",
+              "EditorCaption": ""
             }
           ]
         }

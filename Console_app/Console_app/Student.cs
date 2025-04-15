@@ -11,7 +11,7 @@ namespace Console_app
         public string Name { get; set; }
         public string Surname { get; set; }
         public string GroupNO { get; set; }
-        public string group { get; set; }
+        public Group group { get; set; }
         public string Type { get; set; }
     }
 }

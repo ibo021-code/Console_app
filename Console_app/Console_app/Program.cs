@@ -4,9 +4,12 @@ namespace Console_app
 {
     internal class Program
     {
-       static List<Group> groups = new List<Group>();
-       public static void Main(string[] args)
+        static List<Group> groups = new List<Group>();
+        public static void Main(string[] args)
         {
+
+
+
             while (true)
             {
                 Console.WriteLine("1. Yeni qrup yarat");
@@ -65,15 +68,17 @@ namespace Console_app
 
 
                 }
-                
-                
+
+
 
             }
-            
-            
+
+
         }
         public static void CreateGroup()
         {
+            int sehvSay = 0;
+            int maxsehvSay = 3;
             Console.WriteLine("Qrup nomresi daxil edin :");
             string no = Console.ReadLine();
             if (groups.Any(g => g.NO == no))
@@ -81,23 +86,71 @@ namespace Console_app
                 Console.WriteLine("Bu qrup artiq movcuddur");
                 return;
             }
-            Console.WriteLine("zehmet olmasa bu kategoriyalardan birini yazin : ");
-            Console.WriteLine("Category ---- (programming, design, system administration)");
-            string category = Console.ReadLine();
-            if (category != "programming" && category != "design" && category != "system administration")
+            string category;
+            while (true)
             {
-                Console.WriteLine("Duzgun kategoriya daxil edin");
-                return;
+                Console.WriteLine("zehmet olmasa bu kategoriyalardan birini yazin : ");
+                Console.WriteLine("Category ---- (programming -> p, design -> d , system administration -> s)");
+
+
+                category = Console.ReadLine();
+
+
+
+
+
+                if (category == "p" || category == "d" || category == "s")
+                {
+                    Console.WriteLine("kategoriya daxil edildi");
+
+                    break;
+
+                }
+                else
+                {
+                    sehvSay++;
+                    Console.WriteLine("Duzgun kategoriya daxil edin");
+                    if (sehvSay == maxsehvSay)
+                    {
+                        Console.WriteLine("Maxsimum sehv sayina catdiniz");
+                        return;
+                    }
+                }
             }
-            Console.WriteLine("Qrupun online olub olmadigini daxil edin (true/false) :");
-            string isOnlineStr = Console.ReadLine();
+
+
+
+            string isOnlineStr;
+            while (true)
+            {
+                Console.WriteLine("Qrupun online olub olmadigini daxil edin (true/false) :");
+                isOnlineStr = Console.ReadLine();
+                if (isOnlineStr == "true" || isOnlineStr == "false")
+                {
+                    break;
+                }
+                else
+                {
+                    sehvSay++;
+                    Console.WriteLine("Duzgun deyer daxil edin");
+                    if (sehvSay == maxsehvSay)
+                    {
+                        Console.WriteLine("Maxsimum sehv sayina catdiniz");
+                        return;
+                    }
+                }
+            }
+
 
             Group group = new Group();
             group.NO = no;
             group.Category = category;
+
             group.IsOnline = bool.Parse(isOnlineStr);
             groups.Add(group);
             Console.WriteLine("Qrup yaradildi");
+
+
         }
         public static void ShowGroups()
         {
@@ -113,43 +166,59 @@ namespace Console_app
         }
         public static void EditGroup()
         {
-            Console.WriteLine("Duzelis etmek istediyiniz qrupun nomresini daxil edin :");
-            string no = Console.ReadLine();
-            foreach (var group in groups)
+            int sehvSay = 0;
+            int maxsehvSay = 3;
+            string no;
+            while (true)
             {
-                if (group.NO == no)
+                Console.WriteLine("Duzelis etmek istediyiniz qrupun nomresini daxil edin :");
+                no = Console.ReadLine();
+                if (groups.Any(g => g.NO == no))
                 {
-                    Console.WriteLine("Yeni Qrup nomresini daxil edin :");
-                    string newNo = Console.ReadLine();
 
-                    if (groups.Any(g => g.NO == newNo))
+
+                    foreach (var group in groups)
                     {
-                        Console.WriteLine("Bu qrup artiq movcuddur");
-                        return;
+                        if (group.NO == no)
+                        {
+                            Console.WriteLine("Yeni Qrup nomresini daxil edin :");
+                            string newNo = Console.ReadLine();
+
+                            if (groups.Any(g => g.NO == newNo))
+                            {
+                                Console.WriteLine("Bu qrup artiq movcuddur");
+                                return;
+                            }
+                            group.NO = newNo;
+                            Console.WriteLine("Qrup nomresi duzelis edildi");
+                            return;
+                        }
+                        break;
                     }
-                    group.NO = newNo;
-                    Console.WriteLine("Qrup nomresi duzelis edildi");
-                    return;
                 }
                 else
                 {
+                    sehvSay++;
                     Console.WriteLine("Bu qrup movcud deyil");
-                    return;
+                    if (sehvSay == maxsehvSay)
+                    {
+                        Console.WriteLine("Maxsimum sehv sayina catdiniz");
+                        return;
+                    }
                 }
+
             }
-
-
         }
         public static void ShowStudentsInGroup()
         {
             Console.WriteLine("hansi qrupdaki telebeleri gormek isteyirsizse o qrupun nomresini daxil edin :");
             string no = Console.ReadLine();
-            if(groups.Count == 0)
+            if (groups.Count == 0)
             {
                 Console.WriteLine("Heç bir qrup yoxdur");
                 return;
             }
-                groups.Find(g => g.NO == no).students.ForEach(s => Console.WriteLine($"Ad: {s.Name}, Soyad: {s.Surname}, Qrup nomresi: {s.GroupNO}"));
+            groups.Find(g => g.NO == no).students.ForEach(s => Console.WriteLine($"Ad: {s.Name}, Soyad: {s.Surname}, Qrup nomresi: {s.GroupNO}"));
 
         }
         public static void ShowAllStudents()
@@ -163,17 +232,60 @@ namespace Console_app
             {
                 group.students.ForEach(s => Console.WriteLine($"Ad: {s.Name}, Soyad: {s.Surname}, Qrup nomresi: {s.GroupNO}"));
             }
+
         }
         public static void CreateStudent()
         {
+            int sehvSay = 0;
+            int maxsehvSay = 3;
             Console.WriteLine("Telebe adini daxil edin :");
             string name = Console.ReadLine();
             Console.WriteLine("Telebe soyadini daxil edin :");
             string surname = Console.ReadLine();
-            Console.WriteLine("Telebe qrup nomresini daxil edin :");
-            string groupNo = Console.ReadLine();
-            Console.WriteLine("telebe tipi zemanetli/zemanetsiz");
-            string groupType = Console.ReadLine();
+
+            string groupNo;
+            while (true)
+            {
+                Console.WriteLine("Telebe qrup nomresini daxil edin :");
+                groupNo = Console.ReadLine();
+                if (groups.Any(g => g.NO == groupNo))
+                {
+                    break;
+                }
+                else
+                {
+                    sehvSay++;
+                    Console.WriteLine("Bu qrup movcud deyil");
+                    if (sehvSay == maxsehvSay)
+                    {
+                        Console.WriteLine("Maxsimum sehv sayina catdiniz");
+                        return;
+                    }
+                }
+            }
+
+            string groupType;
+            while (true)
+            {
+
+
+                Console.WriteLine("telebe tipi zemanetli/zemanetsiz");
+                groupType = Console.ReadLine();
+                if (groupType == "zemanetli" || groupType == "zemanetsiz")
+                {
+                    break;
+                }
+                else
+                {
+                    sehvSay++;
+                    Console.WriteLine("Duzgun deyer daxil edin");
+                    if (sehvSay == maxsehvSay)
+                    {
+                        Console.WriteLine("Maxsimum sehv sayina catdiniz");
+                        return;
+                    }
+                }
+            }
 
             Group group = groups.Find(g => g.NO == groupNo);
             if (group == null)
@@ -194,6 +306,6 @@ namespace Console_app
             group.students.Add(student);
             Console.WriteLine("Telebe yaradildi");
         }
-      
+
     }
 }
